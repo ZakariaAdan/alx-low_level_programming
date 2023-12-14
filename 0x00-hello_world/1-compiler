@@ -1,3 +1,2 @@
 #!/bin/bash
-CFILE="1-main.c"
-gcc "$CFILE" -o "${CFILE%.c}"
+gcc -c $CFILE
