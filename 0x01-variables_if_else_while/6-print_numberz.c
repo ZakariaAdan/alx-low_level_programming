@@ -2,19 +2,19 @@
 
 int main(void)
 {
-    /* Using arithmetic to print single digit numbers */
-    putchar(48); /* Represents the ASCII value for '0' */
-    putchar(49); /* Represents the ASCII value for '1' */
-    putchar(50); /* Represents the ASCII value for '2' */
-    putchar(51); /* Represents the ASCII value for '3' */
-    putchar(52); /* Represents the ASCII value for '4' */
-    putchar(53); /* Represents the ASCII value for '5' */
-    putchar(54); /* Represents the ASCII value for '6' */
-    putchar(55); /* Represents the ASCII value for '7' */
-    putchar(56); /* Represents the ASCII value for '8' */
-    putchar(57); /* Represents the ASCII value for '9' */
-
-    putchar('\n'); /* New line */
-
-    return (0);
+	/* Using putchar to print digits from 0 to 9 */
+	putchar('0' + 0); /* '0' + 0 equals '0' */
+	putchar('0' + 1); /* '0' + 1 equals '1' */
+	putchar('0' + 2); /* '0' + 2 equals '2' */
+	putchar('0' + 3); /* '0' + 3 equals '3' */
+	putchar('0' + 4); /* '0' + 4 equals '4' */
+	putchar('0' + 5); /* '0' + 5 equals '5' */
+	putchar('0' + 6); /* '0' + 6 equals '6' */
+	putchar('0' + 7); /* '0' + 7 equals '7' */
+	putchar('0' + 8); /* '0' + 8 equals '8' */
+	putchar('0' + 9); /* '0' + 9 equals '9' */
+	
+	putchar('\n'); /* New line after printing the digits */
+	
+	return (0);
 }
