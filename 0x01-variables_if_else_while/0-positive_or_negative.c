@@ -1,8 +1,15 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/* more headers go here */
 
-/* Betty style doc for function main goes here */
+/**
+ * main - Entry point
+ *
+ * Description: Generates a random number, prints it,
+ * and classifies its sign
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
     int n;
@@ -10,16 +17,7 @@ int main(void)
     srand(time(0));
     n = rand() - RAND_MAX / 2;
 
-    printf("%d is ", n);
-
-    if (n > 0) {
-        printf("positive\n");
-    } else if (n < 0) {
-        printf("negative\n");
-    } else {
-        printf("zero\n");
-    }
-
+    /* Your code goes here */
+    
     return (0);
 }
-
