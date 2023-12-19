@@ -2,17 +2,19 @@
 
 int main(void)
 {
-    putchar(48 + 0); /* ASCII value for '0' + 0 */
-    putchar(48 + 1); /* ASCII value for '0' + 1 */
-    putchar(48 + 2); /* ASCII value for '0' + 2 */
-    putchar(48 + 3); /* ASCII value for '0' + 3 */
-    putchar(48 + 4); /* ASCII value for '0' + 4 */
-    putchar(48 + 5); /* ASCII value for '0' + 5 */
-    putchar(48 + 6); /* ASCII value for '0' + 6 */
-    putchar(48 + 7); /* ASCII value for '0' + 7 */
-    putchar(48 + 8); /* ASCII value for '0' + 8 */
-    putchar(48 + 9); /* ASCII value for '0' + 9 */
-    putchar('\n');   /* newline character */
+    /* Using arithmetic to print single digit numbers */
+    putchar(48); /* Represents the ASCII value for '0' */
+    putchar(49); /* Represents the ASCII value for '1' */
+    putchar(50); /* Represents the ASCII value for '2' */
+    putchar(51); /* Represents the ASCII value for '3' */
+    putchar(52); /* Represents the ASCII value for '4' */
+    putchar(53); /* Represents the ASCII value for '5' */
+    putchar(54); /* Represents the ASCII value for '6' */
+    putchar(55); /* Represents the ASCII value for '7' */
+    putchar(56); /* Represents the ASCII value for '8' */
+    putchar(57); /* Represents the ASCII value for '9' */
+
+    putchar('\n'); /* New line */
 
     return (0);
 }
