@@ -1,7 +1,11 @@
 #include <unistd.h>
+
 /**
- 	* main - this prints exactly the input on it
- * Return: always 1.
+ * main - Entry point of the program
+ *
+ * Description: Prints a specific string to the standard error output.
+ *
+ * Return: Always 1 (error code)
  */
 int main(void)
 {
