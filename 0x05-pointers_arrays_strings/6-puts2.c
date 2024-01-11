@@ -13,8 +13,12 @@ void puts2(char *str)
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
-		i += 2; /* Increment by 2 to skip every other character */
+		if (str[i + 1] != '\0')  /* Print only if the next character is not '\0' */
+			i += 2;  /* Skip to every other character */
+		else
+			break;  /* Exit loop if the next character is '\0' */
 	}
 
 	_putchar('\n');
 }
+
