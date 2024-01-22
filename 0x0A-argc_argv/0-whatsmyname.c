@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-    if (argc > 0) {
-        printf("%s\n", argv[0]);
-    }
+    (void)argc; /* Indicates that the parameter is intentionally not used */
 
+    printf("%s\n", argv[0]);
     return 0;
 }
+
