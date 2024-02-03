@@ -13,5 +13,5 @@ typedef struct list_s
 
 /* Function prototype to print all elements of a list */
 size_t print_list(const list_t *h);
-
+size_t list_len(const list_t *h);
 #endif /* LISTS_H */
